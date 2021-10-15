@@ -35,7 +35,7 @@ async function getGuilds(pageNumber) {
             }
         };
 		
-		let url = "http://ruqqus.com/api/v2/guilds?sort=subs&page=" + pageNumber;
+		let url = "http://api.ruqqus.com/api/v2/guilds?sort=subs&page=" + pageNumber;
 		let filePath = "./guilds/" + "guilds-" + pageNumber + ".json";
 
         // let jsonData;
