@@ -4,7 +4,7 @@ Work in progress 🚧
 
 ### Description
 
-ruqqus-archive is a tool to archive content from [ruqqus.com](https://ruqqus.com/) and to display the content on a website.
+ruqqus-archive is a tool to archive content from [ruqqus.com](https://ruqqus.com/) ([ruqqus](https://github.com/ruqqus/ruqqus/)) and to display the content on a website.
 
 ### Requirements
 
