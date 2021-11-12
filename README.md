@@ -27,8 +27,10 @@ cd ruqqus-archive/
 
 Install the dependencies.
 
-- dotenv, node-fetch and chalk
-- nodemon is optional, it just helps with the development process
+- chalk
+- dotenv
+- node-fetch
+- nodemon (optional, it just helps with the development process)
 
 ```bash
 npm install
