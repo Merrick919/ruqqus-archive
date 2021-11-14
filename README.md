@@ -1,7 +1,5 @@
 # ruqqus-archive
 
-Work in progress 🚧
-
 ## Description
 
 ruqqus-archive is a tool to archive content from [ruqqus.com](https://ruqqus.com/) ([ruqqus](https://github.com/ruqqus/ruqqus/)) and to display the content on a website.
@@ -36,4 +34,24 @@ Install the dependencies.
 npm install
 ```
 
+## Configuration
+
 Create a .env file with the variable `COOKIE` - the value is your cookie from [ruqqus.com](https://ruqqus.com/) (this is so you can log in and access the API).
+
+## Usage
+
+```bash
+node main.js
+```
+
+If you are using nodemon:
+
+```bash
+nodemon main.js
+```
+
+## About the incomplete archive data
+
+I had a lot of school work to do and did not spend much time on this project. When I did have free time, I first started testing the archiving - coincidently, that was the time of the deadline - Ruqqus's API closed in the middle of an archive test. I had overestimated the time I had before the deadline. The data published here is all I have been able to archive.
+
+As far as I know, there is no full archive of Ruqqus. There is a partial archive available at [https://ruqqus-archives.netlify.app/](https://ruqqus-archives.netlify.app/).
