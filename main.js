@@ -5,11 +5,12 @@ import fs from "fs";
 import chalk from "chalk";
 
 const cookie = process.env.COOKIE;
+const pages = process.env.PAGES;
 
 function timeNowISO() {
 	let timeNow = new Date();
 	let timeNowISO = timeNow.toISOString();
-	
+
 	return timeNowISO;
 }
 
@@ -20,10 +21,8 @@ function consoleLog(message) {
 async function getGuilds(pageNumber) {
     
     try {
-		
-        let options = false;
 
-        options = {
+        let options = {
             headers: {
                 "cookie": cookie
             }
@@ -50,7 +49,7 @@ async function getGuilds(pageNumber) {
 
 }
 
-for (let i = 1; i < 101; i ++) {
+for (let i = 1; i <= pages; i ++) {
     getGuilds(i);
 	consoleLog("Getting guilds - page " + i);
 }
