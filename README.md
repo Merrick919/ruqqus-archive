@@ -41,6 +41,13 @@ Create a .env file with the variables below:
 - `COOKIE` (the value is your cookie from [ruqqus.com](https://ruqqus.com/) (this is so you can log in and access the API))
 - `PAGES` (the value is the last page you want to archive up to - it archives from page 1 to the page value you provide)
 
+Example .env file:
+
+```
+COOKIE=session_ruqqus=.iDdi9JU56CbyA_csy5d8aICyb3cboi8-Cni3ycn_co9ac8yuWOy
+PAGES=100
+```
+
 ## Usage
 
 ```bash
