@@ -20,7 +20,7 @@ git clone https://github.com/Merrick919/ruqqus-archive.git
 Enter the directory.
 
 ```bash
-cd ruqqus-archive/
+cd ruqqus-archive
 ```
 
 Install the dependencies.
