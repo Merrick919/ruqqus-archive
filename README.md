@@ -51,13 +51,13 @@ PAGES=100
 ## Usage
 
 ```bash
-node main.js
+node archive.js
 ```
 
 If you are using nodemon:
 
 ```bash
-nodemon main.js
+nodemon archive.js
 ```
 
 ## About the incomplete archive data
